@@ -1,0 +1,19 @@
+{
+  "name": "modem-stream",
+  "description": "slow a stream down to modem speeds",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/modem-stream",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/modem-stream.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
