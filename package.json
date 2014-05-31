@@ -8,9 +8,9 @@
     "url": "git://github.com/dominictarr/modem-stream.git"
   },
   "dependencies": {
+    "through": "~2.3.4"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
